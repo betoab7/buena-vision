@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@import	url(menu.css);
+
+@import	url(banner.css);
+@import	url(tiendas.css);
+@import	url(servicios.css);
+@import	url(bienvenidos.css);
+@import	url(btn.css);
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family:'Open Sans', sans-serif;
+	background-image: url(asanoha.png);
+}
+ #logo {
+ 	margin-top: 10px;
+	float: left;
+	width: 220px;
+}
+#logo img {
+	width: 100%;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background: #3498db;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	box-shadow:0px 4px 3px rgba(0,0,0,0.5);
+	z-index: 100;
+
+}
+.contenedor{
+	width: 98%;
+	margin: auto;
+
+}
+header .contenedor{
+	display: table;
+}
+
+
+section {
+	width: 100%;
+	margin-bottom: 25px;
+
+}
+
+#bienvenidos {
+	text-align: center;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+}
+
+.copy {
+	font-size: 20px;
+
+}
+.sociales {
+	width: 100%;
+   
+   font-size: 28px;
+   display: flex;
+justify-content: center;
+	flex-wrap: wrap;
+}
+
+.sociales a {
+	color: #fff;
+	text-decoration: none;
+
+}
+.sociales a:hover {
+	color: #279DEB;
+}
+.sociales p{
+	margin-top: 4px;
+	font-size: 20px;
+	
+}

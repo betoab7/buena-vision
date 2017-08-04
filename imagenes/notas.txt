@@ -1,0 +1,2 @@
+las imagenes deben tener las dimensiones:
+1500 x 500 px

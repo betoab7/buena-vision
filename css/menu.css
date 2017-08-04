@@ -1,0 +1,75 @@
+
+
+.menu ul{
+	
+	display: flex;
+	
+	overflow: hidden;
+
+}
+.menu li{
+	margin-top: 7px;	
+	display: block;
+
+	
+}
+.menu ul li a{
+	display: inline-block;
+	
+	color:#fff;
+	text-decoration: none;
+	padding: 15px;
+
+}
+
+
+.menu ul li a:hover {
+	background:#2980b9;
+	color:yellow;
+}
+
+@media (max-width: 960px){
+
+
+
+
+.menu{
+	position: absolute;
+	top: 70px;
+	left: 0;
+	width: 100%;
+	
+	background:rgba(52, 152, 219, 0.8);
+}
+
+.menu ul{
+	display: block;
+	
+	overflow: hidden;
+	max-height: 0px;
+	transition: all 0.5s;
+	
+}
+.menu ul li {
+
+	margin-top: 0;
+	
+}
+.menu a{
+	display: block;
+	margin-left: : 0;
+	color: #fff;
+	height: 50px;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 1px solid rgba(255,255,255,0.5);
+	width: 100%;
+
+}
+.menu a:hover{
+	background:#2980b9;
+}
+
+
+}
+

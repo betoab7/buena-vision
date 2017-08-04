@@ -1,0 +1,67 @@
+#presentacion {
+	width: 80%;
+	margin: auto;
+	
+	 box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-image: url("../imagenes/opto2.jpg");
+}
+#presentacion h2{
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#foto-bienvenida {
+	
+	width:300px;
+	margin: 2px;
+
+}
+#foto-bienvenida img{
+	width: 100%;
+
+}
+
+
+#texto-bienvenida {
+	width: 68%;
+	margin: auto;
+	text-align: left;
+}
+#texto-bienvenida a{
+	display:inline-block;
+	
+	background: #5FA0DA;
+	color: #fff;
+
+	text-decoration: none;
+	padding: 10px;
+	box-shadow: 0 0 5px #000
+ 
+
+
+}
+#mas{
+	width: 200px;
+	margin-top: 20px;
+}
+#capa {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 2em;
+	background: rgba(255,255,255,0.8);
+}
+
+@media (max-width: 760px){
+	#foto-bienvenida{
+
+		width:100px;
+	
+	}
+	
+}
