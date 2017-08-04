@@ -15,7 +15,7 @@ function cargar_mapa(cor1,cor2) {
   });
 
   var popup = new google.maps.InfoWindow({
-	content: 'Estamos qui: Optica Buena Vision'});
+	content: 'Optica Buena Vision'});
 	popup.open(map, marker);
 
   
