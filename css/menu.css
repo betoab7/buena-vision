@@ -1,5 +1,27 @@
+header{
+
+}
+
+#cart{
+	color:#fff;
+	font-size: 24px;
+	text-decoration: none;
+	float: right;
+
+	margin-right: 8px;
+	line-height: 70px;
+	visibility: hidden;
+}
 
 
+#busc{
+	color:#fff;
+	font-size: 24px;
+	text-decoration: none;
+	float: right;
+	line-height: 70px;
+	visibility: hidden;
+}
 .menu ul{
 	
 	display: flex;
@@ -70,6 +92,12 @@
 	background:#2980b9;
 }
 
+#cart{
+	visibility: visible;
+}
 
+#busc{
+visibility: visible;
+}
 }
 
